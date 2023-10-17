@@ -1,9 +1,5 @@
 package seminars.second.model;
 
-import seminars.second.model.Cart;
-import seminars.second.model.Product;
-import seminars.second.model.Shop;
-
 import java.util.List;
 import java.util.Scanner;
 

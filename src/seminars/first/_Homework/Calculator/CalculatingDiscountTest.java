@@ -4,11 +4,6 @@ import static org.assertj.core.api.Assertions.*;
 
 public class CalculatingDiscountTest {
     public static void main(String[] args) {
-//        System.out.println(Calculator.calculatingDiscount(100, 15));
-//        System.out.println(Calculator.calculatingDiscount(-100, 15));
-//        System.out.println(Calculator.calculatingDiscount(100, -15));
-//        System.out.println(Calculator.calculatingDiscount(100, 150));
-
         assertThat(Calculator.calculatingDiscount(100, 15)).isEqualTo(85.0);
         assertThat(Calculator.calculatingDiscount(0, 15)).isEqualTo(0);
         assertThat(Calculator.calculatingDiscount(100, 0)).isEqualTo(100.0);

@@ -3,6 +3,7 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
 import seminars.first.Calculator.Calculator;
+import seminars.first.Calculator.Length;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
@@ -93,5 +94,14 @@ public class CalculatorTest {
 //                .describedAs("Input error");
         System.setIn(inputStream);
         System.setOut(null);
+    }
+
+    @Test
+    void testGetLength() {
+        Length length = new Length();
+
+        double result = length.getLength(10);
+
+        assertEquals(62.83185307179586, result, 0.0001);
     }
 }
