@@ -38,5 +38,8 @@
     <orderEntry type="library" name="assertj.core" level="project" />
     <orderEntry type="library" name="junit.jupiter.api" level="project" />
     <orderEntry type="library" name="junit.jupiter.params" level="project" />
+    <orderEntry type="library" name="selenium-java-4.14" level="project" />
+    <orderEntry type="library" name="failsafe-3.3.2" level="project" />
+    <orderEntry type="library" name="auto-service-annotations-1.1.1" level="project" />
   </component>
 </module>
